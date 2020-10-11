@@ -1,5 +1,5 @@
 package org.itstep.task01;
-
+import org.itstep.task01.Human;
 /**
  * Задание 1
  * <p>
@@ -22,7 +22,7 @@ package org.itstep.task01;
  */
 public class Main {
     public static void main(String[] args) {
-        // TODO: Пишите классы в этом пакете
-        // FIXME: здесь пример использования класса
+            Human A = new Human("Зубенко Михаил Петрович","21.01.2001", "79999999999","Россия","Москва","Мамонтово 83");
+        System.out.println(A);
     }
 }
